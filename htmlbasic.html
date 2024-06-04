@@ -1,4 +1,6 @@
+<!--html basic that is mentioned in IT background of 개발-->
 <!DOCTYPE html> <!--selects version of html-->
+<!--html in the tag is called an attribute -->
 <!--html1, 2, 3, 4, 5 are there
     there is a site that compares the tags of each version-->
 <html> <!--this is called tag-->
@@ -7,7 +9,6 @@
         <title></title> <!--show on title on browers-->
         <meta charset="utf-8"> <!--sets html's string--> 
     </head>
-    
     <body>
         <!--Page content - displayable content-->
         <p> <!--beginning tag, paragraph-->
@@ -34,14 +35,25 @@
         <li><p>hihi</p></li><!--list items-->
     </ul>
     <table> <!--table-->
-        <tbody>
+        <!--one can add the attribute "border" with values, 1, 2,... etc. to add a border-->
+        <thead> <!--table head, just use to improve readability-->
             <tr> <!--table row-->
-                <th></th> <!--table head-->
+                <th></th> <!--table data head, makes the input bold and centered-->
+            </tr>
+        <tbody> <!--table body, also just use to improve readability-->
+            <tr> 
+                <th></th>
             </tr>
             <tr>
                 <td></td> <!--table data-->
             </tr>
         </tbody>
+        <tfoot> <!--table foot, also just use to improve readability-->
+            <tr>
+                <td rowspan="2"></td> <!--rowspan will merge rows-->
+                <td colspan="2"></td> <!--colspan will merge columns-->
+            </tr>
+        </tfoot>
     </table>
     </body>
 </html>
